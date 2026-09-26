@@ -4,6 +4,8 @@
 
 ### 🛠 Breaking changes
 
+- Replace `react-test-renderer` with `test-renderer` for `@testing-library/react-native` v14 compatibility.
+
 ### 🎉 New features
 
 ### 🐛 Bug fixes

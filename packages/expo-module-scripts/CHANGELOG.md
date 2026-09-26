@@ -4,6 +4,8 @@
 
 ### 🛠 Breaking changes
 
+- Upgrade `@testing-library/react-native` to v14.
+
 ### 🎉 New features
 
 ### 🐛 Bug fixes

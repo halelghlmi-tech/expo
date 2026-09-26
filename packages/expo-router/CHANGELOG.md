@@ -4,6 +4,8 @@
 
 ### 🛠 Breaking changes
 
+- Update `expo-router/testing-library` for `@testing-library/react-native` v14. `renderRouter` and other helpers are now async and must be awaited.
+
 ### 🎉 New features
 
 ### 🐛 Bug fixes
