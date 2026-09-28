@@ -707,7 +707,6 @@ const createNestedStateObject = (
   // END FORK
 
   // START FORK
-  // expo.handleUrlParams(route, params, hash);
   if (params) {
     route.params = { ...route.params, ...params };
   }
