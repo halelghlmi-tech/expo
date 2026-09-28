@@ -4,6 +4,8 @@
 
 ### 🛠 Breaking changes
 
+- Generated query strings now use `URLSearchParams` encoding: spaces become `+`, `*` is left unescaped, and `~` becomes `%7E`. Raw `null` query values without a route config now serialize as `key=` instead of a bare `key`. Decoded search parameter values are unchanged, but applications that compare exact hrefs or use raw URLs for analytics or cache keys may observe different strings.
+
 ### 🎉 New features
 
 ### 🐛 Bug fixes
